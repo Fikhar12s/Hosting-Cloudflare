@@ -1,0 +1,15 @@
+{
+  "name": "long-wildflower-7606-compact",
+  "version": "1.3.0",
+  "description": "Kommo AI Sales Assistant Worker",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev | node start_dev.js",
+    "wrangler-dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

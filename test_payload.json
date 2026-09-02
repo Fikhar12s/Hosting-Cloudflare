@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "id": "msg_123",
+      "entity_id": 12345,
+      "entity_type": "lead",
+      "text": "Roi nya berapa lama ya kak?",
+      "type": "incoming",
+      "ts": 1700000000
+    }
+  ]
+}

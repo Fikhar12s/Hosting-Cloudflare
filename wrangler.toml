@@ -1,0 +1,25 @@
+name = "long-wildflower-7606-compact"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+
+[vars]
+# Variabel yang bisa diset publik jika ada
+KOMMO_MAIN_ANALYSIS_NOTE_ENABLED = "true"
+KOMMO_SUGGEST_REPLY_NOTE_ENABLED = "true"
+OPENAI_MAX_OUTPUT_TOKENS = "1000"
+TAIL_MESSAGES = "10"
+MAX_SCAN_MESSAGES = "100"
+INCLUDE_ALL_CHATS_AFTER_SUMMARY = "false"
+
+# Untuk KV bindings jika worker menggunakannya
+[[kv_namespaces]]
+binding = "MEM"
+id = "00d848aa25c14acdb3e0a919cf1bbb1a"
